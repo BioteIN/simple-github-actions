@@ -1,0 +1,9 @@
+name: Run Shell Comands
+on: [push]
+
+jobs:
+  run-shell-comand:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "Hello Security Practices here"
