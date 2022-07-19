@@ -8,5 +8,7 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.7.0
         with:
-          target: 'https://www.mctes.gov.mz/'
+          target: 'https://www.vm.co.mz/'
+          rules_file_name: '.zap/rules.tsv'
+          cmd_options: '-a'
         
