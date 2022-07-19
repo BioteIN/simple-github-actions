@@ -1,4 +1,5 @@
-on: [push]
+name: OWASP Zap test
+on: [commit]
 
 jobs:
   zap_scan:
