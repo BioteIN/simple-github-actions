@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ZAP Scan
-        run: echo "Hello Security Practices here"
+        uses: zaproxy/action-baseline@v0.7.0
+        
