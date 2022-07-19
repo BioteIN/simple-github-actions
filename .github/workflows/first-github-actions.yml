@@ -2,7 +2,7 @@ name: Run Shell Comands
 on: [push]
 
 jobs:
-  run-shell-comand:
+  zap_scan:
     runs-on: ubuntu-latest
     steps:
       - name: Echo a String
