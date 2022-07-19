@@ -5,5 +5,5 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo a String
+      - name: ZAP Scan
         run: echo "Hello Security Practices here"
