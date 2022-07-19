@@ -1,9 +1,9 @@
+name: Run Shell Comands
 on: [push]
+
 jobs:
-  zap-scan:
-    runs-on: ubuntu_latest
+  run-shell-comand:
+    runs-on: ubuntu-latest
     steps:
-      - name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.7.0
-        with:
-          target: 'https://www.zaproxy.org'
+      - name: Echo a String
+        run: echo "Hello Security Practices here"
